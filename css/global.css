@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+body{
+    font-family: 'Cute Font', cursive;
+    color: #4b1a88c9 ;
+}
+.wrapper{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    text-align: center;
+    gap: 40px 30px;   
+} 
+.wrapper > div{
+    border-radius: 21px;
+    background-color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.back { 
+    width: 920px; height:1120px; background-color:#d1ccbe4b; 
+    margin: 0 auto;
+    border-radius: 35px;
+   }
+.header {
+    width:800px; height:100px; 
+    margin: 70px 0px 40px 60px;
+    padding: 15px 0px 30px 0px;
+    text-align: center;
+    border-bottom: 3px dashed #4b1a88c9 ;  
+  }
+h1{
+    font-size: 58px; 
+}
+.container {
+    width: 800px; height: 750px;
+    text-align: center;
+    margin: 25px 0px 25px 60px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #3f1c69c9;
+}
+#itsme{ 
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#special{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#want{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#love{
+    grid-column: 2/3;
+}
+.footer{
+    width:800px; height:50px; 
+    margin: 0px 0px 0px 60px;
+    padding: 30px 0px 15px 0px;
+    font-size: 35px;
+    text-align: center;
+    border-top: 3px dashed #4b1a88c9 ; 
+}
+
+/*서브페이지용CSS*/
+
+.imagebox{
+
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    gap: 15px 30px;   
+
+}
+
+#pic{
+    grid-column: 1/2;
+}
+#talk{
+    grid-column: 1/2;
+    border-radius: 21px;
+    background-color: #ffffff;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 2px;
+}
